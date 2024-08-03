@@ -1,6 +1,6 @@
 "use strict";
 const mongoose = require("mongoose");
-const debug = require("debug")("backend:src:substratum:mongo");
+const debug = require("debug")("backend:src:config:db");
 
 const { MONGO_URI } = process.env;
 
