@@ -1,3 +1,7 @@
-const { registerUser } = require("./controller");
+const {
+	getUserProfile,
+	updateUserProfile,
+	deleteUserProfile,
+} = require("./controller");
 
-module.exports = { registerUser };
+module.exports = { getUserProfile, updateUserProfile, deleteUserProfile };
