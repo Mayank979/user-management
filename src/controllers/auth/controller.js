@@ -48,7 +48,7 @@ const loginUser = async (req, res, next) => {
 
 		if (!isMatch) throw createError(400, "Password do not match");
 
-		return res.status(201).json({
+		return res.status(200).json({
 			token: generateToken(user._id),
 		});
 	} catch (err) {
