@@ -14,6 +14,7 @@
 
 1. Have docker and docker compose running
 2. Run docker compose up --build -d
+3. To Stop => docker compose down
 
 This is will the start server on 127.0.0.1:3000
 
